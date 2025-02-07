@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Prince Ramani - Portfolio</title>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                font-family: "Segoe UI", Arial, sans-serif; /* Added better font fallbacks */
+            }
+
+            body {
+                min-height: 100vh; /* Ensure body takes full viewport height */
+                display: flex;
+                flex-direction: column;
+            }
+
+            /* Header Styles - Enhanced */
+            header {
+                background-color: #70869c; /* More modern color */
+                color: ghostwhite;
+                text-align: center;
+                padding: 2rem;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Added shadow for depth */
+            }
+
+            header h1 {
+                font-size: 2.5rem;
+                margin-bottom: 1rem;
+            }
+
+            /* Main Content Styles - Enhanced */
+            .main-content {
+                max-width: 1200px;
+                margin: 2rem auto;
+                padding: 0 2rem;
+                flex: 1; /* Takes remaining space */
+            }
+
+            .content-section {
+                margin-bottom: 2rem;
+                padding: 2rem;
+                background-color: #f8f9fa;
+                border-radius: 8px;
+                box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+            }
+
+            .content-section h2 {
+                color: #70869c;
+                margin-bottom: 1rem;
+                font-size: 1.8rem;
+            }
+
+            /* Responsive Design */
+            @media (max-width: 768px) {
+                .main-content {
+                    padding: 0 1rem;
+                }
+
+                header h1 {
+                    font-size: 2rem;
+                }
+            }
+
+            /* Footer Styles - Enhanced */
+            footer {
+                background-color: #70869c;
+                color: ghostwhite;
+                text-align: center;
+                padding: 1.5rem;
+                margin-top: auto; /* Pushes footer to bottom */
+            }
+
+            /* Added hover effects and transitions */
+            .content-section:hover {
+                transform: translateY(-2px);
+                transition: transform 0.3s ease;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Prince Ramani</h1>
+        </header>
+
+        <div class="main-content">
+            <section id="home" class="content-section">
+                <style>
+                    .small-code {
+                        font-size: 1.2rem;
+                        font-weight: normal;
+                        text-align: left;
+                        color: #666;
+                    }
+                </style>
+                <div class="small-code">def live_happy():</div>
+                <p>
+                    <!-- Add your content here -->
+                </p>
+            </section>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Prince Ramani. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
