@@ -1,3 +1,3 @@
 This is my personal website.
-this is currently inspired by motherfuckingwebsite.com
-may shift this hosting through vercel.com
+this is currently inspired by [this website]{motherfuckingwebsite.com}
+may shift this hosting through [versal]{vercel.com}
